@@ -52,8 +52,7 @@ declared `currentUser`:
 
 ```js
 const currentUser = 'Grace Hopper';
-
-const welcomeMessage = 'Welcome to Flatbook, ';
+onst welcomeMessage = 'Welcome to Flatbook, ';
 ```
 
 Rerun the tests; you should see a second passing test.
@@ -66,7 +65,8 @@ equal to `currentUser` instead:
 ```js
 const currentUser = 'Grace Hopper';
 
-const welcomeMessage = currentUser;
+const
+c welcomeMessage = currentUser;
 ```
 
 When we rerun the tests, we still have two passing. But now the first and third
